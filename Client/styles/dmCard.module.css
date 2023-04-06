@@ -1,0 +1,63 @@
+.dmCard {
+  display: flex;
+  align-items: center;
+  width: 104%;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 6px 7px;
+}
+
+.dm-card .status {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.dmCard:hover {
+  background: #583d72;
+}
+
+.dmAvatarContainer {
+  position: relative;
+  margin-right: 10px;
+}
+
+.dmAvatar {
+  background: var(--light-grey);
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+}
+
+.dmCardStatus {
+  width: 16px;
+  height: 16px;
+  border-radius: 41px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.dmCardName {
+  opacity: 0.7;
+}
+
+.dm-avatar-container > status {
+  position: absolute;
+  top: 20px;
+  left: -20px;
+}
+
+.status {
+  width: 16px;
+  height: 16px;
+  border-radius: 41px;
+  position: absolute;
+  left: 80px;
+}
+
+@media (max-width: 480px) {
+  .dmCard{
+    display: block;
+  }
+}

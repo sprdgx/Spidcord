@@ -1,0 +1,55 @@
+.chatView {
+    flex: 6;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    position: relative;
+  }
+  .chatView::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .messagesContainer {
+    padding: 20px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+  }
+
+  .remarkchatview{
+    display: flex;
+  }
+  .remark{
+    margin-top: 3cm;
+    margin-left: 5cm;
+    margin-right: 3cm;
+    margin-bottom: 14.5cm;
+    padding: 15px;
+    background-color: #2a2347;
+    border-radius: 5%;
+  }
+  .admin{
+    font-size: larger;
+  }
+  .contact{
+    font-size: small;
+    padding: 10px;
+  }
+  .instructions{
+    font-size: small;
+    padding-left: 10px;
+  }
+
+  @media (max-width: 480px) {
+    .chatView{
+      border: 2px #6a53e9 solid;
+      margin-left: 0.4cm;
+      border-radius: 10%;
+      background-color: #2a2347;
+      margin-top: 2.4cm;
+      height: 75%;
+      width: 90%;
+    }
+    .remark{
+      display: none;
+    }
+  }

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/SideBar.tsx", "components/RoomAvatar.tsx", "context/context.js", "context/context.js", "pages/api/createdm.tsx", "pages/api/createuser.tsx", "lib/client.js", "pages/api/getdms.tsx", "components/ConversationList.tsx", "components/DmCard.tsx"],
+  "exclude": ["node_modules"]
+}

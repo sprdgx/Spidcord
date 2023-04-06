@@ -1,0 +1,114 @@
+.chatHeader {
+    width: 100%;
+    background: var(--light-grey);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px;
+    border-bottom: 2px solid #6a53e9;
+    z-index: 10;
+    overflow: hidden;
+  }
+  
+  .roomNameContainer {
+    display: flex;
+    align-items: center;
+    border-width: 2px;
+    border-color: var(--light-grey);
+    flex: 1;
+  }
+  
+  .svg {
+    width: 25px;
+    filter: invert(1);
+    opacity: 0.6;
+    cursor: pointer;
+    margin-right: 3px;
+  }
+  
+  .title {
+    margin-right: 3px;
+    margin-left: 1px;
+  }
+  
+  .chatHeaderStatus {
+    width: 16px;
+    height: 16px;
+    border-radius: 41px;
+    left: 80px;
+    margin-top: 5px;
+  }
+  
+  .headerIconsContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .headerItem {
+    margin-right: 10px;
+  }
+
+  .headerItemmm {
+    margin-right: 10px;
+  }
+  
+  .connectWallet {
+    margin-right: 10px;
+    background-color: #2a2347;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #6a53e9;
+  }
+  
+  .connectWallet:hover {
+    background-color: #6a53e9;
+    border: 2px solid #2a2347;
+  }
+  
+  .connectedWallet {
+    margin-right: 10px;
+    background-color: #2a2347;
+    padding: 8px;
+    border-radius: 55px;
+    border: 2px solid #6a53e9;
+    display: flex;
+    align-items: center;
+  }
+  .separator {
+    margin: 0 10px;
+  }
+
+  @media (max-width: 480px) {
+    .connectWallet{
+      padding: 5px;
+      font-size: smaller;
+    }
+    .connectedWallet{
+      padding: none;
+      margin-right: none;
+      font-size: smaller;
+    }
+    .headerItem{
+      display: none;
+    }
+    .headerItemmm{
+      display: none;
+    }
+    .chatHeaderStatus{
+      display: none;
+    }
+    .title{
+      font-size: medium;
+    }
+    .svg{
+      display: none;
+    }
+    .chatHeader{
+      width: 100%;
+      background-color: #2a2347;
+    }
+    .roomNameContainer{
+      font-size: medium;
+    }
+  }
